@@ -13,4 +13,4 @@ add = int(raw[raw.rfind(',') + 1:])
 final_number = number + add
 
 # Then, split and output as array
-print([int(i) for i in str(number + add)])
+print([int(i) for i in str(final_number)])
